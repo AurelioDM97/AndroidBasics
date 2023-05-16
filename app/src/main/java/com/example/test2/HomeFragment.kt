@@ -27,7 +27,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //binding.recyclerView.setHasFixedSize(true)
 
         items = ArrayList()
         items.add(Image(R.drawable.mario, "Super Mario Bros Deluxe"))
